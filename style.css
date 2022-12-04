@@ -11,6 +11,9 @@ html,body{
     background-color: black;
 }
 
+}
+
+
 main{
     height: 100vh;
     position: relative;
@@ -21,6 +24,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+
 
 section#telefone{
     position: absolute;
@@ -44,9 +48,12 @@ section#telefone{
  }
 
  span#fortal{
+    border-bottom: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.018);
+    padding: 20px;
     color: blue;
     display: block;
-    text-align: right;
     cursor: pointer;
  }
  
