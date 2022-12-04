@@ -44,7 +44,6 @@ section#telefone{
  }
 
  span#fortal{
-    
     color: blue;
     display: block;
     text-align: right;
@@ -84,5 +83,14 @@ section#telefone{
     box-shadow: 5px 5x 10px black;
     transition: transform 0.5s;
  }
+
+ @media (min-width: 768px){
+    span#fortal{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+}
 
 
